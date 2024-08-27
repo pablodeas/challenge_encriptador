@@ -1,0 +1,16 @@
+.p1 {
+    opacity: 0.6;
+}
+
+.input1 {
+    width: 100%;
+    padding: 15px; /* Aumentei de 10px para 15px */
+    font-size: 16px;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    resize: vertical; /* Permite redimensionar verticalmente */
+    min-height: 120px; /* Define o mínimo de altura */
+    max-height: 240px; /* Define o máximo de altura */
+    overflow-y: auto; /* Adiciona rolagem horizontal quando necessário */
+}
